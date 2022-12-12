@@ -1,5 +1,9 @@
 
-alert("Creaciones Al-malik")
+let marca ="Creaciones Al-malik"
+let nombre = prompt("Ingrese su nombre")
+let resultado = prompt ("Bienvenido " + nombre + " a "+ marca)
+
+
 alert("Ingrese la opcion del producto que desea llevar, para salir ingrese 0")
 let seleccionarProductos = Number(prompt( "1-buzo $3000 2-remera $1500 3-jean $5000 4-Zapatillas $6000 "))
 let seleccionarCantidad;
@@ -64,3 +68,6 @@ const metodoDePago = () => {
 }
 
 metodoDePago()
+
+// stock
+
